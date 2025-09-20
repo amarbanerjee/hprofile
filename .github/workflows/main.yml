@@ -4,7 +4,7 @@ env:
   ECR_REPOSITORY: hprofile
   ECS_SERVICE: hProfileTask-service-mem7kfu4
   ECS_CLUSTER: hProfleCLuster
-  ECS_TASK_DEFINITION: aws-files/taskdefinition.json
+  ECS_TASK_DEFINITION: aws-files/taskdeffile.json
   CONTAINER_NAME: hprofile
   AWS_REGION: us-east-1
 
