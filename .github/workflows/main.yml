@@ -1,5 +1,5 @@
 name: Project Actions new
-on: workflow_dispatch
+on: [push,workflow_dispatch]
 env:
   ECR_REPOSITORY: hprofile
   ECS_SERVICE: hProfileTask-service-mem7kfu4
